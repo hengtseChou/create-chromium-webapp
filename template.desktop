@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=NAME
+Comment=NAME (Chromium Web App)
+Type=Application
+Icon=NAME
+Exec=CHROMIUM --app=URL %U
+Terminal=false
+StartupNotify=true
