@@ -60,4 +60,4 @@ sed -i "s|CHROMIUM|$chromium|g" $app_name.desktop
 mv $app_name.desktop $HOME/.local/share/applications/$app_name.desktop
 update-desktop-database $HOME/.local/share/applications
 
-echo ":: $0: succeeded."
+echo ":: Creating $app_name desktop entry: succeeded."
