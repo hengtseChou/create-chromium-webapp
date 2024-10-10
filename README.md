@@ -22,7 +22,7 @@ cd create-chromium-webapp
 
 ## Examples
 
-Copy `icons/`  into `~/.icons`, as it contains several ready-to-go icons
+Copy `icons/` into `~/.icons`, as it contains several ready-to-go icons
 
 ```
 # cd create-chromium-webapp
@@ -41,3 +41,7 @@ cp icons/* ~/.icons
 ```
 ./create-chromium-webapp.sh --name "Messenger" --url "https://www.facebook.com/messages"
 ```
+
+## Removal
+
+To remove installed desktop files, simply locate the file in `~/.local/share/applications` and remove it.
