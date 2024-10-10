@@ -22,12 +22,22 @@ cd create-chromium-webapp
 
 ## Examples
 
-`icons` contains several ready-to-go icons, for example, one can install Netflix with the following commands.
+Copy `icons/`  into `~/.icons`, as it contains several ready-to-go icons
 
 ```
 # cd create-chromium-webapp
 mkdir -p ~/.icons
-cp icons/Netflix.png ~/.icons
+cp icons/* ~/.icons
+```
+
+### Netflix
+
+```
 ./create-chromium-webapp.sh --name "Netflix" --url "https://netflix.com"
 ```
 
+### Messenger
+
+```
+./create-chromium-webapp.sh --name "Messenger" --url "https://www.facebook.com/messages"
+```
